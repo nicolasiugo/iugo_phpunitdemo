@@ -1,6 +1,6 @@
  <?php
 
- 	require 'clases/fetch.php';
+require 'clases/fetch.php';
 
 
 try {
