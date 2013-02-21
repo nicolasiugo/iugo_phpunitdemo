@@ -237,7 +237,7 @@
       passthru="true"
     />
     <exec
-      command="${pear.exec} install --alldeps pear.phing.info/phing"
+      command="${pear.exec} install phing/phing"
       passthru="true"
     />
   </target>
