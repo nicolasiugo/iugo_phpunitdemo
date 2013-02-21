@@ -244,6 +244,10 @@
       command="${pear.exec} channel-discover pear.phing.info"
       passthru="true"
     />
+    <exec
+      command="${pear.exec} install phing/phing"
+      passthru="true"
+    />
   </target>
 
   <target name="clean-dependencies">
